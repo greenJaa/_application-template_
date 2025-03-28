@@ -15,3 +15,5 @@ def index():
         contact_info = {'email': request.form.get('Email'), 'name': request.form.get('Name')}
         return redirect('/')
     return render_template('index.html', form=form)
+
+
